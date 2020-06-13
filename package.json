@@ -1,6 +1,6 @@
 {
-  "name": "dash-core-components-noisycomputation",
-  "version": "1.9.1",
+  "name": "dash-core-components",
+  "version": "1.9.1.post13",
   "description": "Core component suite for Dash",
   "repository": {
     "type": "git",

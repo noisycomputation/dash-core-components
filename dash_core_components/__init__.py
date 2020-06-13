@@ -10,7 +10,7 @@ _filepath = _os.path.abspath(_os.path.join(_basepath, 'package-info.json'))
 with open(_filepath) as f:
     package = json.load(f)
 
-package_name = package['name'].replace(' ', '_').replace('-', '_').replace("_noisycomputation", "")
+package_name = package['name'].replace(' ', '_').replace('-', '_')
 __version__ = package['version']
 
 # Module imports trigger a dash.development import, need to check this first
